@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <title>Modello 3D - Sedia</title>
+  <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+  <style>
+    body { margin: 0; background: #f5f5f5; display: flex; justify-content: center; align-items: center; height: 100vh; }
+  </style>
+</head>
+<body>
+
+  <model-viewer
+    src="sedia.glb"
+    alt="Modello 3D: Sedia"
+    auto-rotate
+    camera-controls
+    ar
+    ar-modes="webxr scene-viewer quick-look"
+    style="width: 100%; max-width: 600px; height: 500px;">
+  </model-viewer>
+
+</body>
+</html>
